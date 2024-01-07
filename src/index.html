@@ -1,0 +1,105 @@
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.column {
+  flex: 1 0 25%;
+  padding: 10px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.person {
+  font-weight: bold;
+}
+
+.date {
+  font-weight: normal;
+}
+
+.description {
+  font-style: italic;
+}
+
+@media screen and (max-width: 768px) {
+  .column {
+    flex: 1 0 50%;
+  }
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="column">
+      <img src="person1-image1.jpg" alt="Person 1 Image 1" class="image">
+    </div>
+    <div class="column">
+      <img src="person1-image2.jpg" alt="Person 1 Image 2" class="image">
+    </div>
+    <div class="column">
+      <img src="person1-image3.jpg" alt="Person 1 Image 3" class="image">
+    </div>
+    <div class="column">
+      <div class="info">
+        <div class="person">Person One</div>
+        <div class="date">Birth: 01/01/2000</div>
+        <div class="date">Death: 01/01/2020</div>
+        <div class="description">Person 1 was a famous actor who starred in many movies.</div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="person2-image1.jpg" alt="Person 2 Image 1" class="image">
+    </div>
+    <div class="column">
+      <img src="person2-image2.jpg" alt="Person 2 Image 2" class="image">
+    </div>
+    <div class="column">
+      <img src="person2-image3.jpg" alt="Person 2 Image 3" class="image">
+    </div>
+    <div class="column">
+      <div class="info">
+        <div class="person">Person Two</div>
+        <div class="date">Birth: 02/02/2002</div>
+        <div class="date">Death: 02/02/2022</div>
+        <div class="description">Person 2 was a famous singer who released many albums.</div>
+      </div>
+    </div>
+  </div>
+  <!-- Add more rows as needed -->
+</div>
+</body>
+</html>
+```
