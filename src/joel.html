@@ -1,0 +1,110 @@
+<html>
+<head>
+  <style>
+    /* Define the color scheme */
+    :root {
+      --primary-color: #4a4e69;
+      --secondary-color: #9a8c98;
+      --tertiary-color: #c9ada7;
+      --quaternary-color: #f8f8f8;
+      --quinary-color: #e0e0e0;
+    }
+
+    /* Define the font family */
+    @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
+    * {
+      font-family: 'Roboto', sans-serif;
+    }
+
+       /* Define the header */
+    .header {
+      grid-column: 1 / 13;
+      grid-row: 1 / 2;
+      background-color: var(--quaternary-color);
+      color: var(--primary-color);
+      padding: 20px;
+      text-align: center;
+    }
+
+    .header h1 {
+      font-size: 36px;
+      font-weight: 700;
+      margin: 0;
+    }
+
+    .header h2 {
+      font-size: 24px;
+      font-weight: 300;
+      margin: 10px 0;
+    }
+
+    /* Define the photo row */
+    .row {
+  display: flex;
+  flex-wrap: wrap;
+  height: 200px; /* adjust as needed */
+}
+.row img {
+  width: 10%; /* adjust as needed */
+  height: 100%;
+  object-fit: cover;
+}
+
+     /* Define the footer */
+     .footer {
+      grid-column: 1 / 13;
+      grid-row: 3 / 4;
+      background-color: var(--quaternary-color);
+      color: var(--primary-color);
+      padding: 20px;
+      text-align: center;
+    }
+
+    .footer p {
+      font-size: 14px;
+      font-weight: 300;
+      margin: 0;
+    }
+
+    .footer a {
+      color: var(--quinary-color);
+      text-decoration: none;
+    }
+
+    /* Define the responsiveness */
+    @media (max-width: 600px) {
+  .row img {
+    width: 20%;
+  }
+}
+
+@media (max-width: 400px) {
+  .row img {
+    width: 33.33%;
+  }
+}
+
+ 
+    
+  </style>
+</head>
+<body>
+<div class="header">
+    <h1>In Loving Memory of Joel Brauer</h1>
+      <h2>June 18, 1978 &#x2014; April 25, 2013</h2>
+    </div>
+<div class="row">
+  <img src="./assets/Joel-a.jpg" alt="Image 1">
+  <img src="./assets/Joel-b.jpg" alt="Image 3">
+  <img src="./assets/Joel-c.jpg" alt="Image 4">
+  <img src="./assets/Joel-d.jpg" alt="Image 5">
+  <img src="./assets/Joel-e.jpg" alt="Image 6">
+  <img src="./assets/Joel-f.jpg" alt="Image 7">
+  <img src="./assets/Joel-g.jpg" alt="Image 8">
+  <img src="./assets/Joel-h.jpg" alt="Image 9">
+  <img src="./assets/Joel-i.jpg" alt="Image 10">
+  <img src="./assets/Joel-j.jpg" alt="Image 10">
+</div>
+    <div class="footer">
+       In Loving Memory 
+    </div>
