@@ -1,110 +1,125 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <style>
-    /* Define the color scheme */
-    :root {
-      --primary-color: #4a4e69;
-      --secondary-color: #9a8c98;
-      --tertiary-color: #c9ada7;
-      --quaternary-color: #f8f8f8;
-      --quinary-color: #e0e0e0;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
 
-    /* Define the font family */
-    @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
-    * {
-      font-family: 'Roboto', sans-serif;
-    }
+        header {
+            text-align: center;
+            padding: 30px 0;
+            background-color: #f8f8f8;
+            color: #fff;
+        }
 
-       /* Define the header */
-    .header {
-      grid-column: 1 / 13;
-      grid-row: 1 / 2;
-      background-color: var(--quaternary-color);
-      color: var(--primary-color);
-      padding: 20px;
-      text-align: center;
-    }
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
 
-    .header h1 {
-      font-size: 36px;
-      font-weight: 700;
-      margin: 0;
-    }
+        h2 {
+            margin-bottom: 20px;
+            color: #333;
+            font-weight: lighter;
+        }
 
-    .header h2 {
-      font-size: 24px;
-      font-weight: 300;
-      margin: 10px 0;
-    }
+        h1 {
+            margin-bottom: 20px;
+            color: #333;
+        }
 
-    /* Define the photo row */
-    .row {
-  display: flex;
-  flex-wrap: wrap;
-  height: 200px; /* adjust as needed */
-}
-.row img {
-  width: 10%; /* adjust as needed */
-  height: 100%;
-  object-fit: cover;
-}
+        p {
+            line-height: 1.6;
+            color: #555;
+        }
 
-     /* Define the footer */
-     .footer {
-      grid-column: 1 / 13;
-      grid-row: 3 / 4;
-      background-color: var(--quaternary-color);
-      color: var(--primary-color);
-      padding: 20px;
-      text-align: center;
-    }
+        .photos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
 
-    .footer p {
-      font-size: 14px;
-      font-weight: 300;
-      margin: 0;
-    }
+        .photo {
+            width: 30%;
+            margin-bottom: 20px;
+        }
 
-    .footer a {
-      color: var(--quinary-color);
-      text-decoration: none;
-    }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
 
-    /* Define the responsiveness */
-    @media (max-width: 600px) {
-  .row img {
-    width: 20%;
-  }
-}
-
-@media (max-width: 400px) {
-  .row img {
-    width: 33.33%;
-  }
-}
-
- 
-    
-  </style>
+        @media (max-width: 768px) {
+            .photo {
+                width: 100%;
+            }
+        }
+    </style>
 </head>
 <body>
-<div class="header">
-    <h1>In Loving Memory of Joel Brauer</h1>
-      <h2>June 18, 1978 &#x2014; April 25, 2013</h2>
-    </div>
-<div class="row">
-  <img src="./assets/Joel-a.jpg" alt="Image 1">
-  <img src="./assets/Joel-b.jpg" alt="Image 3">
-  <img src="./assets/Joel-c.jpg" alt="Image 4">
-  <img src="./assets/Joel-d.jpg" alt="Image 5">
-  <img src="./assets/Joel-e.jpg" alt="Image 6">
-  <img src="./assets/Joel-f.jpg" alt="Image 7">
-  <img src="./assets/Joel-g.jpg" alt="Image 8">
-  <img src="./assets/Joel-h.jpg" alt="Image 9">
-  <img src="./assets/Joel-i.jpg" alt="Image 10">
-  <img src="./assets/Joel-j.jpg" alt="Image 10">
-</div>
-    <div class="footer">
-       In Loving Memory 
-    </div>
+
+    <header>
+      <h1>In Loving Memory of Joel Brauer</h1>
+              <h2>June 18, 1978 &#x2014; April 25 2013</h2>
+            </div>
+    </header>
+
+    <section>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Etiam tempor orci eu lobortis. Maecenas accumsan lacus vel facilisis volutpat est. Enim nunc faucibus a pellentesque sit amet. Fames ac turpis egestas sed tempus urna et. Mauris rhoncus aenean vel elit. Elit sed vulputate mi sit amet mauris commodo quis. Non curabitur gravida arcu ac tortor dignissim convallis. Gravida cum sociis natoque penatibus et magnis dis. Cursus sit amet dictum sit amet justo donec. Imperdiet dui accumsan sit amet nulla facilisi morbi tempus iaculis. Dui sapien eget mi proin sed libero.
+        </p>
+        <p>
+          Nunc sed velit dignissim sodales ut eu. Feugiat scelerisque varius morbi enim nunc faucibus. Nunc scelerisque viverra mauris in aliquam. Facilisis gravida neque convallis a. Ante metus dictum at tempor commodo ullamcorper a lacus vestibulum. Lorem dolor sed viverra ipsum nunc aliquet bibendum. Nullam eget felis eget nunc lobortis mattis aliquam. Eget nullam non nisi est sit amet. Sem viverra aliquet eget sit. Risus commodo viverra maecenas accumsan lacus vel. Ultricies integer quis auctor elit sed vulputate mi. Consectetur adipiscing elit pellentesque habitant morbi tristique senectus et.
+        </p>
+        <p>
+          Pharetra vel turpis nunc eget lorem dolor sed viverra ipsum. Et leo duis ut diam. Vivamus arcu felis bibendum ut tristique et. Leo integer malesuada nunc vel risus commodo viverra maecenas accumsan. Porta non pulvinar neque laoreet suspendisse interdum consectetur libero id. Quis eleifend quam adipiscing vitae. Pretium viverra suspendisse potenti nullam ac. Id ornare arcu odio ut sem nulla pharetra diam sit. Maecenas accumsan lacus vel facilisis volutpat est velit. A condimentum vitae sapien pellentesque habitant morbi tristique senectus et. Nunc consequat interdum varius sit amet mattis vulputate enim. Feugiat nisl pretium fusce id velit ut tortor. Aliquet porttitor lacus luctus accumsan tortor posuere ac ut.
+        </p>
+
+        <div class="photos">
+            <div class="photo">
+                <img src="./assets/Joel-a.jpg" alt="Joel Photo 1">
+            </div>
+            <div class="photo">
+                <img src="./assets/Joel-b.jpg" alt="Joel Photo 2">
+            </div>
+            <div class="photo">
+                <img src="./assets/Joel-c.jpg" alt="Joel Photo 3">
+            </div>
+            <div class="photo">
+                <img src="./assets/Joel-d.jpg" alt="Joel Photo 4">
+            </div>
+            <div class="photo">
+                <img src="./assets/Joel-e.jpg" alt="Joel Photo 5">
+            </div>
+            <div class="photo">
+                <img src="./assets/Joel-f.jpg" alt="Joel Photo 6">
+            </div>
+             <div class="photo">
+                <img src="./assets/Joel-g.jpg" alt="Joel Photo 7">
+            </div>
+              <div class="photo">
+                <img src="./assets/Joel-h.jpg" alt="Joel Photo 8">
+            </div>
+               <div class="photo">
+                <img src="./assets/Joel-i.jpg" alt="Joel Photo 9">
+            </div>
+                <div class="photo">
+                <img src="./assets/Joel-j.jpg" alt="Joel Photo 10">
+            </div>
+  </div>
+    </section>
+
+</body>
+</html>
