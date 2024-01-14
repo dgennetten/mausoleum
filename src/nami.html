@@ -1,200 +1,47 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <style>
-    /* Define the color scheme */
-    :root {
-      --primary-color: #4a4e69;
-      --secondary-color: #9a8c98;
-      --tertiary-color: #c9ada7;
-      --quaternary-color: #f8f8f8;
-      --quinary-color: #e0e0e0;
-    }
-
-    /* Define the font family */
-    @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
-    * {
-      font-family: 'Roboto', sans-serif;
-    }
-
-    /* Define the layout */
-    .container {
-      max-width: 1200px;
-      margin: 0 auto;
-      display: grid;
-      grid-template-columns: repeat(12, 1fr);
-      grid-template-rows: auto;
-      grid-gap: 20px;
-    }
-
-    /* Define the header */
-    .header {
-      grid-column: 1 / 13;
-      grid-row: 1 / 2;
-      background-color: var(--quaternary-color);
-      color: var(--primary-color);
-      padding: 20px;
-      text-align: center;
-    }
-
-    .header h1 {
-      font-size: 36px;
-      font-weight: 700;
-      margin: 0;
-    }
-
-    .header h2 {
-      font-size: 24px;
-      font-weight: 300;
-      margin: 10px 0;
-    }
-
-    /* Define the main */
-    .main {
-      grid-column: 1 / 13;
-      grid-row: 2 / 3;
-      display: grid;
-      grid-template-columns: repeat(12, 1fr);
-      grid-template-rows: auto;
-      grid-gap: 20px;
-    }
-
-    /* Define the image */
-    .image {
-      grid-column: 2 / 12;
-      grid-row: 1 / 2;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .image img {
-      width: 60%;
-      height: auto;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      margin: 50px;
-    }
-
-    /* Define the content */
-    .content {
-      grid-column: 2 / 12;
-      grid-row: 2 / 3;
-      background-color: var(--quaternary-color);
-      color: var(--primary-color);
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-
-    .content h3 {
-      font-size: 18px;
-      font-weight: 700;
-      margin: 0 0 10px 0;
-    }
-
-    .content p {
-      font-size: 16px;
-      font-weight: 300;
-      margin: 0 0 10px 0;
-      line-height: 1.5;
-    }
-
-    .content ul {
-      font-size: 16px;
-      font-weight: 300;
-      margin: 0 0 10px 0;
-      padding: 0 0 0 20px;
-      list-style: disc;
-    }
-
-    .content li {
-      margin: 0 0 5px 0;
-    }
-
-    /* Define the footer */
-    .footer {
-      grid-column: 1 / 13;
-      grid-row: 3 / 4;
-      background-color: var(--quaternary-color);
-      color: var(--primary-color);
-      padding: 20px;
-      text-align: center;
-    }
-
-    .footer p {
-      font-size: 14px;
-      font-weight: 300;
-      margin: 0;
-    }
-
-    .footer a {
-      color: var(--quinary-color);
-      text-decoration: none;
-    }
-
-    /* Define the responsiveness */
-    @media (max-width: 768px) {
-      .container {
-        grid-template-columns: repeat(6, 1fr);
-      }
-
-      .image {
-        grid-column: 1 / 7;
-      }
-
-      .content {
-        grid-column: 1 / 7;
-      }
-    }
-
-    @media (max-width: 480px) {
-      .container {
-        grid-template-columns: repeat(3, 1fr);
-      }
-
-      .image {
-        grid-column: 1 / 4;
-      }
-
-      .content {
-        grid-column: 1 / 4;
-      }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nami Gennetten</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-  <div class="container">
-<div class="header">
-    <h1>In Loving Memory of Nam-Yun (Nami) Gennetten
-South Lily</h1>
-      <h2>August 23, 1955 &#x2014; April 7, 2023</h2>
-    </div>
-    <div class="main">
-      <div class="image">
-        <img src="./images/Nami-3.jpg" alt="Nami Gennetten`j">
-      </div>
-      <div class="content">
-        <h3>About Nami Gennetten</h3>
-        <p>
-            Nam-Yun Lee was born on August 23, 1955 in Yanggu, South Korea, soon after the end of the Korean War. Her father, originally from North Korea, found himself unable to cross the border and return home to his family. So He married again and started a family in the South. They named their first child South Lily or Nam-Yun in Chinese. Lily, signifying happiness and gratitude and South representing their new life together in South Korea.
-        </p>
-        <p>
-            At the age of 24 Nami came to America and married Raymond Turner whom she  met in Korea at the age of 22. They had two boys, Stephen and Mitchell. In 1991, as a single mother, Nami had a born-again experience that transformed her life. God led her to Denver in 2001 where she embraced the Seventh-day Adventist faith guided by the influence of her coworker, Teresa Hayden, and husband Tom Hayden. It was in this church where she met Don who, in 2002, married her and remained her loving and devoted husband until her death.
-        </p>
-        <p>
-            In 2015, Nami was diagnosed with Multiple Myeloma, a bone marrow cancer. After a few weeks of chemotherapy, she decided to abandon that extremely painful process and focus on improving her diet and lifestyle. This served her well. She chose quality of life over extension of life yet ended up with both. Although her cancer led to kidney failure and gave her emphysema and cystic lung disease, she remained strong and resolute, never losing her faith and grace. She was able to receive Palliative Care and Hospice Care at home where her husband cared for her until her death at the age of 67 on Friday, April 7, 2023 at 6:50 pm.  Their unwavering faith in God gave them the solace that this too is part of His plan and we will all be reunited again soon.
-        </p>
-        <p>
-            Nami was a loving and devoted wife, mother and grandmother to her husband, her sons, Stephen Tuner, Mitchell Turner and stepson Donald Gennetten and grandchildren, Adyson, Luke, Michael and Morgan. She loved spending time with her family and friends and was always there to offer support and encouragement. She spent many happy hours cooking, gardening, and singing, always eager to share her love and faith in God.
-        </p>
-        <p>
-            She was an extraordinary woman, fearless in her witness for God, always giving, and never knowing a stranger. Her love and passion was felt by all that crossed her path. Some may not know that she saw herself as a wild horse, despite not considering that to be flattering. For some who knew her well, it will forever be an endearing image representing her courage, strength, and inspirational spirit.
-        </p>
-      </div>
-    </div>
+    <header>
+      <h1>In Loving Memory of Nam-Yun (Nami) Gennetten
+        South Lily</h1>
+        <h2>August 23, 1955 &#x2014; April 7, 2023</h2>
+            </div>
+    </header>
+
+    <section>
+      <p>
+        Nam-Yun Lee was born on August 23, 1955 in Yanggu, South Korea, soon after the end of the Korean War. Her father, originally from North Korea, found himself unable to cross the border and return home to his family. So He married again and started a family in the South. They named their first child South Lily or Nam-Yun in Chinese. Lily, signifying happiness and gratitude and South representing their new life together in South Korea.
+    </p>
+    <p>
+        At the age of 24 Nami came to America and married Raymond Turner whom she  met in Korea at the age of 22. They had two boys, Stephen and Mitchell. In 1991, as a single mother, Nami had a born-again experience that transformed her life. God led her to Denver in 2001 where she embraced the Seventh-day Adventist faith guided by the influence of her coworker, Teresa Hayden, and husband Tom Hayden. It was in this church where she met Don who, in 2002, married her and remained her loving and devoted husband until her death.
+    </p>
+    <p>
+        In 2015, Nami was diagnosed with Multiple Myeloma, a bone marrow cancer. After a few weeks of chemotherapy, she decided to abandon that extremely painful process and focus on improving her diet and lifestyle. This served her well. She chose quality of life over extension of life yet ended up with both. Although her cancer led to kidney failure and gave her emphysema and cystic lung disease, she remained strong and resolute, never losing her faith and grace. She was able to receive Palliative Care and Hospice Care at home where her husband cared for her until her death at the age of 67 on Friday, April 7, 2023 at 6:50 pm.  Their unwavering faith in God gave them the solace that this too is part of His plan and we will all be reunited again soon.
+    </p>
+    <p>
+        Nami was a loving and devoted wife, mother and grandmother to her husband, her sons, Stephen Tuner, Mitchell Turner and stepson Donald Gennetten and grandchildren, Adyson, Luke, Michael and Morgan. She loved spending time with her family and friends and was always there to offer support and encouragement. She spent many happy hours cooking, gardening, and singing, always eager to share her love and faith in God.
+    </p>
+    <p>
+        She was an extraordinary woman, fearless in her witness for God, always giving, and never knowing a stranger. Her love and passion was felt by all that crossed her path. Some may not know that she saw herself as a wild horse, despite not considering that to be flattering. For some who knew her well, it will forever be an endearing image representing her courage, strength, and inspirational spirit.
+    </p>
+
+        <div class="photos">
+            <div class="photo">
+                <img src="./images/Nami-1.jpg" alt="Joel Photo 1">
+            </div>
+            <div class="photo">
+                <img src="./images/Nami-2.jpg" alt="Joel Photo 2">
+            </div>
+            <div class="photo">
+                <img src="./images/Nami-3.jpg" alt="Joel Photo 3">
+            </div>
   </div>
-  <div class="container">
-    <div class="footer">
-       In Loving Memory 
-    </div>
-  </div>
+  </section>
+</body>
+</html>
